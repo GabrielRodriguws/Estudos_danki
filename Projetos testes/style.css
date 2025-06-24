@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.container{
+    max-width: 1366px;
+    display: flex;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: steelblue;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.container div{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.d1{
+    background-color: aquamarine;
+}
+
+.d2{
+    background-color: blanchedalmond;
+    width: 50%;
+}
+
+.d3{
+    background-color: tan;
+    width: 50%;
+}
+
+.animations{
+    height: 400px;
+    width: 400px;
+    background-color: thistle;
+}
